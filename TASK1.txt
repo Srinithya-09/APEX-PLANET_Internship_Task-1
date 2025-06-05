@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Simple Webpage</h1>
+    <p>This is a paragraph of text that provides information about the webpage.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Placeholder Image">
+    <p>For more information, visit <a href="https://www.example.com">this link</a>.</p>
+    <button onclick="showAlert()">Click Me!</button>
+
+    <script>
+        function showAlert() {
+            alert('Hello! This is an alert message.');
+        }
+    </script>
+</body>
+</html>
